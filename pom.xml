@@ -22,11 +22,15 @@
     <artifactId>booster-parent</artifactId>
     <version>23</version>
   </parent>
-  <groupId>io.openshift.booster</groupId>
+  <groupId>org.bitcraft.ueb</groupId>
   <artifactId>programa</artifactId>
   <version>1.0.0</version>
-  <name>Spring Boot - HTTP Booster</name>
-  <description>Spring Boot - HTTP Booster</description>
+  <organization>
+    <name>bitcraft</name>
+    <url>bitcraft.org</url>
+  </organization>
+  <name>Programa Educativo da UEB</name>
+  <description>API do Programa Educativo da UEB</description>
   <properties>
     <spring-boot-bom.version>1.5.14.Final-redhat-1</spring-boot-bom.version>
     <spring-boot.version>1.5.14.RELEASE</spring-boot.version>

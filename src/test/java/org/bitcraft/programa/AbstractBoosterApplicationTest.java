@@ -13,12 +13,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package io.openshift.booster;
+package org.bitcraft.programa;
 
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.core.Is.is;
 
-import io.openshift.booster.service.Greeting;
+import org.bitcraft.programa.service.Greeting;
 import org.junit.Test;
 
 public abstract class AbstractBoosterApplicationTest {
